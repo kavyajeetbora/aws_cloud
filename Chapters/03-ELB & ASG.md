@@ -72,3 +72,21 @@ There are 3 types of load balancers in AWS based on the network protocols:
 
 Read more on this [link](https://www.geeksforgeeks.org/elastic-load-balancer-in-aws/)
 Also can read more on [What is OSI](https://www.geeksforgeeks.org/open-systems-interconnection-model-osi/)
+
+## Auto Scaling group
+
+Autoscaling group helps in automatically scale horizontally by adding for example one more EC2 instances to match an increasing in load
+
+In real-life, the load on our application might vary, for example during the day time the load might be very high and at night time it may be less. So with the help of Auto-Scaling group, we can automatically scale our server horizontally based on the load. This way it efficiently utilises the resources optimizing the processing and cost.
+
+So in summary, goal of the auto-scaling group is to
+
+- scale out (add EC2 instances) to match increasing load
+- scale in (remove EC2 instances) to match decreasing load
+- Ensure we have a minimum and a maximum number of machines running
+- Automatically register a new instances to our load balancer
+- Replace unhealthy instances if any
+
+Cost savings: only run at an optimal capacity
+
+Next Learn about AWS components: VPC, Subnet and basics of networking
