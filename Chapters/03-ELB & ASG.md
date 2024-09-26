@@ -31,6 +31,21 @@ There are two versions to represent:
 - IPv4: An IPv4 address looks something like this: `192.168.1.1`
 - IPv6: is the newer version of IPv4. It was created because we were running out of IPv4 addresses. IPv6 addresses are longer and look like this: `2001:0db8:85a3:0000:0000:8a2e:0370:7334`.
 
+#### Which IP version to use in AWS?
+
+- Setting up IPv4 is relatively easier and also well documented.
+- But only drawing when using it in AWS it charges a premium, as IPv4 are limited
+- Setting up IPv6 can be difficult as it requires an additional learning and adaptation
+- IPv6 since it is relatively new, it can have compatibility with older applications and devices which doesnot support the newer IPv6 address.
+
+Advantages of using IPv6 :
+
+- No Additional Cost: IPv6 addresses are not subject to the same scarcity and additional costs as IPv4 addresses1.
+- Scalability: IPv6 provides a virtually unlimited number of addresses, which can simplify network management and reduce the need for complex configurations like Network Address Translation (NAT)2.
+- Future-Proofing: As more devices and services adopt IPv6, using it can ensure your infrastructure is ready for future growth and compatibility2.
+
+[Here is a detailed comparison for Ipv4 vs Ipv6](https://aws.amazon.com/compare/the-difference-between-ipv4-and-ipv6/)
+
 ### How They Are Related:
 
 - VPC: Your private network in AWS.
