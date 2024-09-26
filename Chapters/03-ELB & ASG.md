@@ -58,6 +58,12 @@ Advantages of using IPv6 :
 - Within that VPC, you create subnets to organize your resources.
 - Each resource (like a server) in your subnets gets an IPv4 or IPv6 address so it can communicate with other resources.
 
+Read more on:
+
+- Route Tables
+- [Understanding Subnet address](https://www.howtouselinux.com/post/understanding-cidr-24)
+- Creating VPC, subnets in AWS
+
 ## Scalability
 
 Scalability is definded as the ability to accomodate larger load by making the hardware stronger (scale up) or by adding nodes (scale out)
