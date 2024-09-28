@@ -77,6 +77,8 @@ This means that `/24` network will accommodate `256` addresses in total. The net
 
 Read more on:
 
+- [Understanding CIDR](https://www.howtouselinux.com/post/understanding-cidr-24)
+- [Video: Understanding CIDR Block in AWS VPC : Classless Interdomain Routing](https://youtu.be/I_LXaIg6mkM?si=UkarOqgyGiEHH5Px)
 - [Understanding Subnet address](https://www.howtouselinux.com/post/understanding-cidr-24)
 - Creating VPC, subnets in AWS
 
