@@ -88,3 +88,10 @@ So in summary, goal of the auto-scaling group is to
 - Replace unhealthy instances if any
 
 Cost savings: only run at an optimal capacity
+
+### Stratergies of ASG
+
+1. **Dynamic Scaling**: Adjust the horizontal scaling on real-time metrics using CloudWatch Alarms. For example: increase or decrease the EC2 instance based on CPU utilization
+2. **Schedule Scaling**: Scheduled scaling allows you to scale your resources based on a schedule
+3. **Predictive Scaling**: uses machine learning to forecast future traffic and automatically adjusts the number of instances in advance
+4. **Manual Scaling**: Manual scaling allows you to manually adjust the number of instances in your ASG
