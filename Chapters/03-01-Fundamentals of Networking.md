@@ -82,4 +82,22 @@ Read more on:
 - [Understanding Subnet address](https://www.howtouselinux.com/post/understanding-cidr-24)
 - Creating VPC, subnets in AWS
 
-## Creating a VPC and Subnet in AWS
+## Creating EC2 instance with VPC
+
+When creating a VPC say you have chosen CIDR: 10.0.0.0/24 you can create 256 possible IP addresses.
+
+An example below
+
+### IP Address Assignment for an EC2 Instance
+
+When you launch an EC2 instance in a subnet, AWS automatically assigns a private IP address from the subnet’s range. Let’s simulate this with an example:
+
+VPC and Subnet Setup:
+VPC CIDR: 10.0.0.0/24
+Subnet CIDR: 10.0.0.0/24 (same as VPC for simplicity)
+Launching an EC2 Instance:
+When you launch an EC2 instance, AWS assigns it a private IP address from the available pool.
+Let’s say the first instance gets the IP address 10.0.0.4
+And if another intance is created, then the IP address for it is assigned as 10.0.0.5 say
+
+The IP addresses are assigned automatically and randomly by the VPC from the available range of IPv4 addresses
