@@ -1,2 +1,51 @@
 *.pem
 Security
+*.env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+.env/
+
+# Distribution / packaging
+.Python
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# macOS files
+.DS_Store
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Testing
+.tox/
+.nox/
+.coverage
+coverage.xml
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+
+# PyInstaller
+*.spec
+
+# Others
+*.bak
+*.swp
