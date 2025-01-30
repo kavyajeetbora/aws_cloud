@@ -138,7 +138,6 @@ Boto3 supports many more AWS services, making it a powerful tool for automation.
 ---
 
 ## 🚀 Want to Build Something?  
-Since you're into **geospatial data pipelines**, you can use **Boto3** with AWS **S3, Lambda, Glue, and Athena** to build a GIS pipeline.  
 
 For example, you can:  
 - Store large **raster and vector datasets** in **S3**  
