@@ -6,7 +6,7 @@ s3_client = aws_console.client('s3')
 try:
     response = s3_client.create_bucket(
         ACL='private',
-        Bucket='s3-bucket-xxyy7751',
+        Bucket='s3-bucket-xxyy5684',
         CreateBucketConfiguration={
             'LocationConstraint': 'ap-south-1',
         }
@@ -16,7 +16,6 @@ try:
 
 except Exception as e:
     print(e)
-
 
 
 '''
