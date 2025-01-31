@@ -61,6 +61,9 @@ session = boto3.Session(
 
 ## 🔹 Examples of Using Boto3  
 
+[boto3 documentation](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
+[boto3 s3 client documentation](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/s3.html#s3)
+
 ### 📌 1. List All S3 Buckets  
 ```python
 import boto3
